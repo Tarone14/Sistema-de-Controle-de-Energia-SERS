@@ -22,11 +22,19 @@ Certifique-se de ter instalado:
 
   Python 3.10+
 
--> Passo 0:
+**-> Passo 0:**
 
 Faça o download do arquivo /Sistema aqui no repositório do GitHub
 
--> Passo 1:
+Abra o arquivo através do seu programa de código de escolha(PyCharm, VS Code etc.)
+
+Cetifique-se de que está acessando a pasta /Sistema no seu diretório e terminal, desta maneira:
+
+<img width="97" height="27" alt="image" src="https://github.com/user-attachments/assets/5895e0c8-5075-407a-a969-449bfc56b139" />
+
+
+
+**-> Passo 1:**
 
 Para utilizá-lo, você precisará criar um ambiente virtual, há duas maneiras de se fazer isto.
 
@@ -40,7 +48,7 @@ E depois:
 
   .venv\Scripts\activate
 
--> Passo 2: 
+**-> Passo 2:**
 
 Instale os pacotes requeridos para o funcionamento do programa no seu ambiente virtual.
 
@@ -50,7 +58,7 @@ Escreva no terminal do seu programa de código:
 
 Espere a instalação.
 
--> Pronto!
+**-> Pronto!**
 
 Agora o programa está prontamente instalado
 
