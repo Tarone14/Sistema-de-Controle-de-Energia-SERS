@@ -1,7 +1,7 @@
 import streamlit as st
 import time
 
-# NOVO: módulo correto de gráficos Plotly
+
 from plotly_charts import (
     create_voltage_chart,
     create_light_chart,
@@ -17,8 +17,6 @@ from core.storage import salvar_medicao, carregar_historico
 from core.filters import filtrar
 from core.alerts import detectar_alertas
 
-# ❌ REMOVIDO (era Matplotlib)
-# from graphs.charts import grafico_brilho, grafico_tensao
 
 # Inicialização
 st.set_page_config(page_title="Dashboard Solar", layout="wide")
@@ -127,3 +125,4 @@ elif menu == "🚨 Alertas":
         alertas = detectar_alertas(df)
         st.dataframe(alertas)
         st.error(f"Total de alertas: {len(alertas)}")
+
