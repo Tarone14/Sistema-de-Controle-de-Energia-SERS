@@ -22,6 +22,10 @@ Certifique-se de ter instalado:
 
   Python 3.10+
 
+-> Passo 0:
+
+Faça o download do arquivo /Sistema aqui no repositório do GitHub
+
 -> Passo 1:
 
 Para utilizá-lo, você precisará criar um ambiente virtual, há duas maneiras de se fazer isto.
